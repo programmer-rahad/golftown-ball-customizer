@@ -1,0 +1,42 @@
+.button {
+    font-weight: 700;
+    background: transparent;
+    text-transform: uppercase;
+    border: 1px solid #707070;
+    font-size: 14px;
+    color: #797979;
+    min-width: 200px;
+    padding: 8.5px 10px;
+    transition-duration: .3s;
+    &:hover{
+        background-color: #000;
+        color: #fff;
+    }
+    @media(max-width:575.98px) {
+        padding-top: 7px;
+        padding-bottom: 6px;
+    }
+
+    &.red-button {
+        background: var(--red);
+        color: #fff;
+        border-color: var(--red);
+        width: 100%;
+        max-width: 270px;
+        &:hover {
+            background-color: #ED001C;
+        }
+        &:disabled {
+            background-color: var(--gray);
+            border-color: transparent;
+        }
+        @media(max-width: 575.98px) {
+            min-width: auto;
+        }
+    }
+    &.green-button {
+        background-color: var(--green-2);
+        color: var(--white);
+        border-color: transparent;
+    }
+}

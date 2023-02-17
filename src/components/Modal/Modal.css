@@ -1,0 +1,117 @@
+.modal-content .modal-header {
+  padding-top: 23px;
+  padding-bottom: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-bottom: 0;
+  margin-bottom: -15px;
+}
+@media (min-width: 992px) {
+  .modal-content .modal-header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (max-width: 575.98px) {
+  .modal-content .modal-header {
+    position: relative;
+  }
+}
+.modal-content .modal-header h5 {
+  font-size: 26px;
+  line-height: 1;
+}
+@media (max-width: 575.98px) {
+  .modal-content .modal-header h5 {
+    font-size: 20px;
+  }
+}
+.modal-content .modal-header span {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: lowercase;
+}
+.modal-content .modal-header button {
+  background: #000;
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  font-size: 35px;
+  line-height: 50px;
+  margin-top: -67px;
+  margin-right: -35px;
+  border: none;
+}
+@media (max-width: 575.98px) {
+  .modal-content .modal-header button {
+    position: absolute;
+    background: #000;
+    width: 35px;
+    height: 35px;
+    font-size: 30px;
+    line-height: 41px;
+    margin-top: -70px;
+    right: 23px;
+  }
+}
+@media (min-width: 992px) {
+  .modal-content .modal-body {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 28px;
+  }
+}
+.modal-content .modal-body > p {
+  font-size: 14px;
+  line-height: 24px;
+}
+@media (max-width: 575.98px) {
+  .modal-content .modal-body > p {
+    font-size: 13px;
+    line-height: 22px;
+  }
+}
+.modal-content .modal-body > p a {
+  display: block;
+  font-weight: 700;
+  color: #00A94D;
+  text-decoration: underline;
+  margin-top: 2px;
+}
+.modal-content table {
+  text-align: center;
+  width: 100%;
+}
+.modal-content table * {
+  font-size: 18px;
+}
+@media (max-width: 575.98px) {
+  .modal-content table * {
+    font-size: 15px;
+  }
+}
+.modal-content tr {
+  height: 40px;
+}
+.modal-content tr:nth-child(odd) {
+  background-color: var(--gray);
+}
+.modal-content tr:first-child {
+  background-color: #5A5A5A;
+  color: #fff;
+}
+.modal-content .product-price-modal {
+  max-width: 710px;
+}
+@media (max-width: 790px) {
+  .modal-content .product-price-modal {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.modal-content .product-price-modal .modal-content {
+  border-radius: 10px;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.12);
+}/*# sourceMappingURL=Modal.css.map */

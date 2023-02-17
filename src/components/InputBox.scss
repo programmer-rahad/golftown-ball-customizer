@@ -1,0 +1,32 @@
+.input-box {
+    label {
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    select,
+    input {
+        height: 38px;
+        padding-left: 12px;
+        padding-right: 12px;
+        border: 1px solid var(--gray);
+        font-size: 14px;
+    }
+    &.error {
+        input { 
+            border: 1px solid var(--red);
+            &::placeholder {
+                color: var(--red);
+                font-weight: 700;
+            }
+        }
+    }
+}
+.select-box {
+    select {
+        width: 100%;
+        display: block;
+        outline: none;
+    }
+}

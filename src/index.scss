@@ -1,0 +1,168 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Work+Sans:wght@600;700&display=swap');
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('./fonts/HelveticaNeue.woff2') format('woff2'),
+    url('./fonts/HelveticaNeue.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+// font-family: 'Hind', sans-serif;
+// font-family: 'Work Sans', sans-serif;
+// Reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  --black: #000;
+  --white: white;
+  --red: #BE1E24;
+  --gray: #DFDFDF;
+  --green: #34871B;
+  --green-2: #00A94D;
+  --primary-font: 'Hind', sans-serif;
+  --secondary-font: 'Work Sans', sans-serif
+}
+
+body {
+  color: var(--black);
+  font-family: var(--primary-font);
+}
+
+p {
+  font-size: 14px;
+  line-height: 27px;
+
+  @media(max-width: 767px) {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+h3,
+h4,
+h5 {
+  font-weight: 600;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+input {
+  outline: none;
+}
+
+// Common
+.container {
+  max-width: 1224px;
+}
+
+.text-red {
+  color: var(--red);
+}
+.text-green {
+color: var(--green);
+}
+.text-green-2 {
+  color: var(--green-2);
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.font-primary {
+  font-family: var(--primary-font);
+}
+
+.font-secondary {
+  font-family: var(--secondary-font);
+}
+
+.bg-green {
+  background-color: var(--green)
+}
+
+.border-horizontal-middle {
+  position: relative;
+  text-align: center;
+  z-index: 0;
+}
+
+.border-horizontal-middle::after {
+  position: absolute;
+  content: " ";
+  height: 2px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  z-index: -1;
+}
+
+.customization-box {
+  border: 1px solid #DFDFDF;
+  border-radius: 8px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-left: 23px;
+
+  p {
+    font-size: 18px;
+  }
+
+  span {
+    text-transform: capitalize;
+
+    &.text-bold {
+      font-size: 10px;
+      text-transform: uppercase;
+    }
+  }
+
+}
+.steps-wrapper {
+  @media(max-width:575.98px) {
+    margin-top: 2px;
+  }
+}
+button label {
+  cursor: pointer;
+}
+button.edit {
+  border: none;
+  background: transparent;
+  color: var(--green);
+}
+
+
+.transparent-blur {
+  position: relative;
+  &::after {
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .6;
+    top: 0;
+    left: 0;
+    // filter: blur(10px);
+  }
+}

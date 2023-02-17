@@ -1,0 +1,40 @@
+.button {
+  font-weight: 700;
+  background: transparent;
+  text-transform: uppercase;
+  border: 1px solid #707070;
+  font-size: 14px;
+  color: #797979;
+  min-width: 200px;
+  padding: 8.5px 10px;
+}
+@media (max-width: 575.98px) {
+  .button {
+    padding-top: 7px;
+    padding-bottom: 6px;
+  }
+}
+.button.red-button {
+  background: var(--red);
+  color: #fff;
+  border-color: var(--red);
+  width: 100%;
+  max-width: 270px;
+}
+.button.red-button:hover {
+  background-color: #ED001C;
+}
+.button.red-button:disabled {
+  background-color: var(--gray);
+  border-color: transparent;
+}
+@media (max-width: 575.98px) {
+  .button.red-button {
+    min-width: auto;
+  }
+}
+.button.green-button {
+  background-color: var(--green-2);
+  color: var(--white);
+  border-color: transparent;
+}/*# sourceMappingURL=Buttons.css.map */

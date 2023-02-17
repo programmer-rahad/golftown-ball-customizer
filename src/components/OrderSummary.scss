@@ -1,0 +1,56 @@
+.order-summary {
+    font-size: 18px;
+    @media(max-width: 991.98px) {
+        padding-top: 15px;
+        border-top: 1px solid #707070;
+    }
+    @media(max-width:575.98px) {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 1.4;
+    }
+    @media(max-width: 383.98px) {
+        font-size: 14px;
+        letter-spacing: -.5px;
+    }
+    h3 {
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .gray-box {
+        background-color: #F4F2F1;
+        padding: 15px 10px;
+        table {
+            width: 100%;
+            tr {
+                td {
+                    span {
+                        font-size: 9px;
+                        font-weight: 500;
+                    }
+                    &:last-child {
+                        width: 50px;
+                    }
+                }
+                &:last-child {
+                    margin-top: 10px;
+                }
+            }
+            hr {
+                width: calc(100% + 50px);
+            }
+            td {
+                &:first-child {
+                    padding-right: 50px;
+                    @media(max-width: 479.98px) {
+                        padding-right: 30px;
+                    }
+                    @media(max-width: 383.98px) {
+                        padding-right: 20px;
+                    }
+                }
+            }
+            
+        }
+    }
+}

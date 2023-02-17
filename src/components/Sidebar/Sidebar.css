@@ -1,0 +1,112 @@
+@media (min-width: 768px) and (max-width: 991px) {
+  .left-sidebar {
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.left-sidebar h3 {
+  font-size: 26px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.left-sidebar h4 {
+  font-size: 17px;
+  border-bottom: 1px solid #DFDFDF;
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+@media (max-width: 767.98px) {
+  .left-sidebar h4 {
+    border: 1px solid #dfdfdf;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+}
+.left-sidebar ul {
+  padding: 0;
+  margin: 0;
+}
+@media (max-width: 767.98px) {
+  .left-sidebar ul {
+    padding-top: 10px;
+    width: 185px;
+    background-color: rgba(94, 93, 93, 0.9);
+    display: none;
+  }
+  .left-sidebar ul.show-filter {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    border-radius: 5px;
+  }
+}
+.left-sidebar ul li {
+  align-items: center;
+  font-weight: 500;
+  font-size: 15px;
+}
+@media (max-width: 767.98px) {
+  .left-sidebar ul li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(223, 223, 223, 0.5);
+    color: var(--white);
+    cursor: pointer;
+  }
+  .left-sidebar ul li label {
+    padding-top: 1px;
+    padding-bottom: 6px;
+    width: 100%;
+    cursor: pointer;
+  }
+  .left-sidebar ul li:last-child {
+    border-bottom: 0;
+  }
+}
+@media (min-width: 576px) {
+  .left-sidebar ul li label {
+    padding-top: 4px;
+  }
+}
+.left-sidebar ul li label span:first-of-type {
+  margin-right: 8px;
+  width: 17px;
+  height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2.5px;
+  font-size: 12px;
+  font-weight: 700;
+}
+@media (min-width: 768px) {
+  .left-sidebar ul li label span:first-of-type {
+    color: #ada9a9;
+    border: 1px solid #DFDFDF;
+  }
+}
+@media (max-width: 767.98px) {
+  .left-sidebar ul li label span:first-of-type {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+.left-sidebar ul li label span:first-of-type i {
+  display: none;
+}
+.left-sidebar ul li label span:last-child {
+  font-weight: 500;
+}
+@media (max-width: 767.98px) {
+  .left-sidebar ul li label span:last-child {
+    text-transform: lowercase;
+  }
+  .left-sidebar ul li label span:last-child::first-letter {
+    text-transform: uppercase;
+  }
+}
+.left-sidebar ul li label input:checked + span:first-of-type i {
+  display: block;
+}/*# sourceMappingURL=Sidebar.css.map */

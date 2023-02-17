@@ -1,0 +1,59 @@
+.order-summary {
+  font-size: 18px;
+}
+@media (max-width: 991.98px) {
+  .order-summary {
+    padding-top: 15px;
+    border-top: 1px solid #707070;
+  }
+}
+@media (max-width: 575.98px) {
+  .order-summary {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+}
+@media (max-width: 383.98px) {
+  .order-summary {
+    font-size: 14px;
+    letter-spacing: -0.5px;
+  }
+}
+.order-summary h3 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.order-summary .gray-box {
+  background-color: #F4F2F1;
+  padding: 15px 10px;
+}
+.order-summary .gray-box table {
+  width: 100%;
+}
+.order-summary .gray-box table tr td span {
+  font-size: 9px;
+  font-weight: 500;
+}
+.order-summary .gray-box table tr td:last-child {
+  width: 50px;
+}
+.order-summary .gray-box table tr:last-child {
+  margin-top: 10px;
+}
+.order-summary .gray-box table hr {
+  width: calc(100% + 50px);
+}
+.order-summary .gray-box table td:first-child {
+  padding-right: 50px;
+}
+@media (max-width: 479.98px) {
+  .order-summary .gray-box table td:first-child {
+    padding-right: 30px;
+  }
+}
+@media (max-width: 383.98px) {
+  .order-summary .gray-box table td:first-child {
+    padding-right: 20px;
+  }
+}/*# sourceMappingURL=OrderSummary.css.map */

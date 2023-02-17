@@ -1,0 +1,75 @@
+.front-back-wrapper .front-back {
+  position: relative;
+  width: 438px;
+}
+@media (max-width: 991.98px) {
+  .front-back-wrapper .front-back {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 575.98px) {
+  .front-back-wrapper .front-back {
+    width: 315px;
+  }
+}
+@media (max-width: 350.98px) {
+  .front-back-wrapper .front-back {
+    width: 280px;
+  }
+}
+.front-back-wrapper .front-back div.logo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.front-back-wrapper .front-back div.logo img {
+  width: 234px;
+}
+@media (max-width: 575.98px) {
+  .front-back-wrapper .front-back div.logo img {
+    width: 185px;
+  }
+}
+@media (max-width: 350.98px) {
+  .front-back-wrapper .front-back div.logo img {
+    width: 150px;
+  }
+}
+.front-back-wrapper .front-back div.text,
+.front-back-wrapper .front-back img.logo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.front-back-wrapper .front-back div.text {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  text-transform: uppercase;
+  text-align: center;
+}
+@media (max-width: 575.98px) {
+  .front-back-wrapper .front-back div.text {
+    font-size: 25px;
+    line-height: 28px;
+  }
+}
+.front-back-wrapper .front-back div.text span {
+  display: block;
+}
+.front-back-wrapper .front-back-buttons {
+  text-align: center;
+}
+.front-back-wrapper .front-back-buttons button {
+  min-width: 118px;
+}
+.front-back-wrapper .front-back-buttons button:hover, .front-back-wrapper .front-back-buttons button.active {
+  background-color: #000;
+  border-color: transparent;
+  color: #fff;
+}/*# sourceMappingURL=ViewFrontBack.css.map */
